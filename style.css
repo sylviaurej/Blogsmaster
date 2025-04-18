@@ -1,102 +1,36 @@
-/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Header Styles */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 1rem;
 }
 
 header h1 {
     margin: 0;
-    text-align: center;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
+nav a {
     color: #fff;
+    margin-right: 1rem;
     text-decoration: none;
 }
 
-/* Main Content Styles */
 main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    padding: 1rem;
 }
 
-.blog-posts {
-    width: 70%;
-}
-
-.blog-posts article {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.blog-posts article h2 {
-    margin-top: 0;
-}
-
-.blog-posts article a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-/* Sidebar Styles */
-aside {
-    width: 25%;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-aside h3 {
-    margin-top: 0;
-}
-
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside ul li {
-    margin-bottom: 10px;
-}
-
-aside ul li a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
